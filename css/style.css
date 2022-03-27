@@ -6,7 +6,7 @@ html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, tex
 }
 h1, h2, h3, h4, h5, h6 
 {
-    font-size: 100%;
+    font-size: 80%;
     font-weight: normal;
 }
 ul 
@@ -110,7 +110,6 @@ input
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    gap: 20%;
 }
 #header-entete #nav #menu li a
 {
@@ -239,7 +238,7 @@ input
     width: 100%;
     height: 40px;
     display: inline-block;
-    padding: 8px 1px 7.5px  12px;
+    padding: 5px 1px 2.5px  12px;
     margin-left: -23px;
     cursor: pointer; 
 }
@@ -283,6 +282,7 @@ input
     width: 20px;
     height: 20px;
     padding-bottom: 4px;
+    font-size: 12px;
 }
 /*fin style header*/
 /*main*/
@@ -355,7 +355,7 @@ input
 #main #hebergements-populaires #hebergement-marseille .card-conteneur .card .photo-hebergement 
 {
     width: 100%;
-    height: 60%;
+    height: 50%;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
     margin: 6px 6px 0px 6px;
@@ -369,9 +369,13 @@ input
     justify-content: space-around;
     align-items: flex-start;
     padding-left: 10px;
-    width: 75%;
+    width: 95%;
     height: 32%;
     font-size: small;
+}
+#main #hebergements-populaires #hebergement-marseille .card-conteneur .card .texte-sous-photo p
+{
+    font-size: x-small;
 }
 #main #hebergements-populaires #hebergement-marseille .card-conteneur .card .texte-sous-photo .prix 
 {
@@ -380,6 +384,7 @@ input
 #main #hebergements-populaires #hebergement-marseille .card-conteneur .card .etoiles .fa-star 
 {
     color: #0065fc;
+    font-size: 80%;
 }
 #main #hebergements-populaires #hebergement-marseille .card-conteneur .card .etoiles .grey 
 {
@@ -449,7 +454,7 @@ input
 }
 #main #hebergements-populaires #populaire .card-conteneur .card .photo-hebergement
 {
-    width: 60%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px 0 0 15px;
@@ -462,12 +467,17 @@ input
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 40%;
+    width: 50%;
     height: 90%;
     padding-left: 10px;
     font-size: small;
     align-items: flex-start;
     align-content: space-around;
+    margin: auto;
+}
+#main #hebergements-populaires #populaire .card-conteneur .card .texte-sous-photo p
+{
+    font-size: x-small;
 }
 #main #hebergements-populaires #populaire .card-conteneur .card .texte-sous-photo .prix 
 {
@@ -476,6 +486,7 @@ input
 #main #hebergements-populaires #populaire .card-conteneur .card .etoiles .fa-star 
 {
     color: #0065fc;
+    font-size: 80%;
     
 }
 #main #hebergements-populaires #populaire .card-conteneur .card .etoiles .grey 
