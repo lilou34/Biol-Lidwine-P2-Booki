@@ -992,6 +992,10 @@ input
         flex-wrap: wrap;
         padding-left: 15px;
     }
+    #header-entete .barre-filtre .englobe-filtre .filtre
+    {
+        margin-right: 40px;
+    }
     #header-entete #info-sous-filtre 
     {
         width: 100%;
