@@ -395,7 +395,9 @@ input
     width: 96%;
     min-height: 5%;
     height: 5%;
-    margin: 20px 20px 15px 20px;
+    padding-rigth: 20px;
+    padding-left: 20px;
+    margin: 20px 0px 15px 0px;
     font-weight: bold;
 }
 /*Les plus populaires*/
